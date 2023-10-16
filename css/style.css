@@ -13,8 +13,7 @@
 
 nav{
     background-color: lightskyblue;
-    padding: 10px 0;
-    
+    padding: 10px 0;   
 }
 
 .container-nav{
@@ -33,14 +32,12 @@ nav{
     border: 3px dotted black;
     flex-basis: 50%;
     justify-content: center;
-    padding: 10px 10px;
-    
+    padding: 10px 10px; 
 }
 
 ul li{
     list-style-type: none;
     padding: 0 10px;
-    
 }
 
 .container-nav div{
@@ -89,7 +86,6 @@ section{
     /* DEBUG */
     min-height: 250px;
     background-color: rgb(70, 70, 233);
-    
 }
 
 
@@ -104,7 +100,7 @@ section{
 /* stili section specifici */
 
 .sezione2, .sezione4{
-    background-color: grey;
+    background-color: rgb(200, 195, 195);
 }
 
 #img-main2{
@@ -113,7 +109,6 @@ section{
     /* DEBUG */
     min-height: 250px;
     background-color: rgb(70, 70, 233);
-   
 }
 
 #container-section4{
@@ -125,4 +120,45 @@ section{
     background-color: green;
 }
 
+
+
+/* stili footer */
+
+footer{
+    background-color: rgb(52, 47, 47);
+}
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px 0 30px 0;
+    min-height: 400px;
+}
+
+.social{
+    flex-basis: 50%;
+    background-color: pink;
+}
+
+.list{
+    flex-basis: 25%;
+    background-color: aqua;
+    border: 2px dotted white;
+}
+
+#end{
+    border-top:1px solid gray;
+    padding-top: 10px;
+}
+
+.container-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  lightskyblue;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 40px;
+}
 
