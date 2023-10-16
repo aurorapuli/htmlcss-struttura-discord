@@ -1,5 +1,58 @@
+/* stili generali */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    font-size: 14px;
+}
+
+/* stili header */
+
+nav{
+    background-color: lightskyblue;
+    padding: 10px 0;
+    
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: orange;
+    border: 1px dotted black;
+}
+
+.container-nav ul{
+    display: flex;
+    border: 3px dotted black;
+    flex-basis: 50%;
+    justify-content: center;
+    padding: 10px 10px;
+    
+}
+
+ul li{
+    list-style-type: none;
+    padding: 0 10px;
+    
+}
+
+.container-nav div{
+    flex-basis: 25%;
+    border: 3px dotted black;
+    padding: 10px 10px;
+}
+
+.container-nav button{
+    flex-basis: 25%;
+    border: 3px dotted black;
+    padding: 10px 10px;
+}
+
+
